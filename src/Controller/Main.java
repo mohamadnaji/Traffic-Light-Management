@@ -56,7 +56,6 @@ public class Main extends Application {
 			loader = new AnchorPane();
 			loader.setId("anchor");
 			drawTL();
-			System.out.println("start");
 			listFilesForFolder(images);
 
 			Scene scene = new Scene(loader, 1100, 700);
